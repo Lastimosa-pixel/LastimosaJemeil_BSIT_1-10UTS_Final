@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Self Journal - Jemeil Lastimosa</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #ffe4e1, #ffe5b4);
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(to right, #ffb6c1, #ffdab9);
+      color: white;
+      padding: 2rem;
+      text-align: center;
+      border-bottom-left-radius: 25px;
+      border-bottom-right-radius: 25px;
+      background-image: url('https://images.unsplash.com/photo-1503264116251-35a269479413?auto=format&fit=crop&w=1200&q=60');
+      background-size: cover;
+      background-position: center;
+      position: relative;
+    }
+    header::before {
+      content: "";
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(255, 182, 193, 0.7);
+      border-bottom-left-radius: 25px;
+      border-bottom-right-radius: 25px;
+    }
+    header h1, header p {
+      position: relative;
+      z-index: 1;
+    }
+    .container {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 2rem;
+      background: white;
+      border-radius: 15px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    }
+    h2 {
+      color: #d87093;
+    }
+    .section-link {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      margin-top: 1.5rem;
+      padding: 1rem;
+      background: #fff0f5;
+      border: 1px solid #f5b5b5;
+      border-radius: 10px;
+      text-decoration: none;
+      color: #333;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    .section-link:hover {
+      transform: scale(1.02);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    }
+    .section-link img {
+      width: 60px;
+      height: 60px;
+      border-radius: 10px;
+      object-fit: cover;
+    }
+    .section-link span {
+      font-weight: bold;
+      font-size: 1.1rem;
+    }
+    p {
+      margin-top: 1rem;
+      line-height: 1.6;
+    }
+    footer {
+      text-align: center;
+      margin-top: 3rem;
+      font-size: 0.9rem;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>My Self Journal</h1>
+    <p>Name: Jemeil Lastimosa | Section: BSIT 1-10</p>
+  </header>
+
+  <div class="container">
+    <h2>Introduction (About Me)</h2>
+    <p>My name is Jemeil Lastimosa, and I am a first-year BSIT student from section 1-10. I’m someone who enjoys simple things—like drawing and going outside to clear my mind. These hobbies help me feel calm and stay connected with myself.</p>
+    <p>My journey hasn’t always been easy. I've had highs and lows, but even when I'm down, I try to stay grounded and focused. Life has its struggles, but I always find a way to rise above them. One thing that has helped me is being kind—not just to others, but also to myself.</p>
+    <p>I see myself as a quiet but strong person. I work best when I’m on my own, and that’s where I feel most in control. My biggest strength is doing things alone. At the same time, I know I need to improve in opening up and asking for help when needed.</p>
+    <p>For this project, I chose to work with HTML and CSS. These tools reflect my creativity and the technical side of me. I already have some experience using them, so they feel natural to me. They also show how I like building things from scratch, organizing them in my own style, and paying attention to details.</p>
+
+    <a class="section-link" href="physical.html">
+      <img src="https://images.unsplash.com/photo-1605296867304-46d5465a13f1?auto=format&fit=crop&w=80&q=60" alt="Physical Self"/>
+      <span>1. Physical Self</span>
+    </a>
+
+    <a class="section-link" href="social.html">
+      <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=80&q=60" alt="Social Self"/>
+      <span>2. Social Self</span>
+    </a>
+
+    <a class="section-link" href="spiritual.html">
+        <img src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&w=1000&q=60" alt="Peaceful sunrise over mountains representing spiritual calm">
+      <span>3. Spiritual Self</span>
+    </a>
+
+    <a class="section-link" href="digital.html">
+      <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=80&q=60" alt="Digital Self"/>
+      <span>4. Digital Self</span>
+    </a>
+
+    <a class="section-link" href="future.html">
+      <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=80&q=60" alt="Future Self"/>
+      <span>5. Future Self</span>
+    </a>
+
+    <h2>Conclusion</h2>
+    <p>This course and project helped me reflect more on who I am. I learned that “The Self” is more than just one part of me—it’s a mix of how I think, feel, and act in different areas of life. It made me realize how connected everything is: my past, my habits, my beliefs, even my online presence. It all shapes the person I am becoming.</p>
+  </div>
+
+  <footer>
+    &copy; 2025 Jemeil Lastimosa
+  </footer>
+</body>
+</html>
